@@ -7,14 +7,10 @@ public class AdvancedNamingConvention {
     private int phone_number;
 
     void callToFriend() {
-        if (ADULT_AGE == age) {
-            System.out.println("Success!");
-        }else System.out.println("Wrong!");
+       // some code
     }
 
     void callByNumber(int number) {
-        if (number == phone_number)
-            System.out.println("Success!");
-        else System.out.println("Wrong!");
+        // some code
     }
 }
